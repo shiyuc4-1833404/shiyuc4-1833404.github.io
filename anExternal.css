@@ -2,6 +2,14 @@ body {
     background-color: lightpink;
 }
 
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .catImg {
     height: 50px;
     width: 50px;
