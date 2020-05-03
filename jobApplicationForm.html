@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Disney Job Application</title>
+    </head>
+<body>
+        <div="mainContent">
+            <h1>Disney Job Applicaition</h1>
+            <p>If you are interested in acting as a princess in Disney Parade, please fill out this job application.</p><br>
+            <div class="formClass">
+                    <form name="input" action="https://formspree.io/mgeaqkal" method="post">
+                        <fieldset>
+                            <legend>Basic Info</legend>
+                                Full Name: <input type="text" name="name"/><br/><br/>
+                                Email: <input type="email" name="_replyto"><br/><br/>
+                                Where are you from?<br/>
+                                <input type="radio" name="continent" value="Asia">Asia<br/> <input type="radio" name="continent" value="Australia">Australia<br/> <input type="radio" name="continent" value="Africa">Africa<br/> <input type="radio" name="continent" value="Europe">Europe<br/> <input type="radio" name="continent" value="Australia">North America<br/> <input type="radio" name="continent" value="South America">South America<br/><br/>
+                                Which language can you speak? (Check all that applies to you.)<br/>
+                                <input type="checkbox" name="language" value="Chinese">Chinese<br/> <input type="checkbox" name="language" value="English">English<br/> <input type="checkbox" name="language" value="French">French<br/> <input type="checkbox" name="language" value="Japanese">Japanese<br/> <input type="checkbox" name="language" value="Spanish">Spanish<br/>                          
+                        </fieldset><br/>
+                        
+                        <fieldset>
+                            <legend>Essay</legend>
+                            Please tell us why you want to join the team of Disney Parade? What makes you unique?<br/><br/> 
+                            <textarea class="form-control" name="essay" rows="6"></textarea><br/>
+                        </fieldset><br/>
+
+                        <fieldset>
+                            <legend>More Info</legend>
+                            Which character do you want to act most?<br/>
+                            <select name="character"> 
+                                <option value="--">--</option> <option value="Ariel">Ariel</option> <option value="Belle">Belle</option> <option value="Cinderella">Cinderella</option> <option value="Elsa">Elsa</option> <option value="Jasmine">Jasmine</option> <option value="Snow White">Snow White</option> 
+                            </select><br/><br/>
+                            Which of the following is your favourite disney princess song?<br/>
+                            <select name="princessSongPreference">
+                                <optgroup label="Ariel">
+                                    <option value="Part Of Your World">Part Of Your World</option>
+                                    <option value="Under The Sea">Under The Sea</option>
+                                </optgroup>
+                                <optgroup label="Belle">
+                                    <option value="Belle">Belle</option>
+                                    <option value="Beauty And The Beast">Beauty And The Beast</option>
+                                </optgroup>     
+                                <optgroup label="Cinderella">
+                                    <option value="A Dream Is A Wish Your Heart Makes">A Dream Is A Wish Your Heart Makes</option>
+                                </optgroup>
+                                <optgroup label="Elsa">
+                                    <option value="For The First Time In Forever">For The First Time In Forever</option>
+                                    <option value="Let It Go">Let It Go</option>
+                                </optgroup>
+                                <optgroup label="Jasmine">
+                                    <option value="A Whole New World">A Whole New World</option>
+                                    <option value="Speechless">Speechless</option>
+                                </optgroup>      
+                                <optgroup label="Snow White">
+                                    <option value="I'm Wishing">I'm Wishing</option>
+                                    <option value="Someday My Prince Will Come">Someday My Prince Will Come</option>
+                                </optgroup>
+                            </select>                                                                                        
+                        </fieldset><br/>
+                        
+                        Thanks for your time. Please click the send button below to finish your application.<br/><br/>
+                        <input type="submit" value="Send">
+                        </form>
+        </div>
+</body>
+</html>
